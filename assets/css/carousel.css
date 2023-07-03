@@ -1,0 +1,107 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p,span,li {
+  color: #000000;
+}
+header nav {
+  min-height: 75px;
+}
+.nav-item a.nav-link {
+  font-weight: 700;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 40.65rem;
+}
+.bg-slide-1 {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.left-15 {
+  left: -30px!important;
+}
+
+.bottom-shadow {
+  padding: 10px;
+  line-height: 1.8;
+  -webkit-box-shadow: 0px 2px 6px 0px rgba(66, 68, 90, 0.15);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(66, 68, 90, 0.15);
+  box-shadow: 0px 2px 6px 0px rgba(66, 68, 90, 0.15);
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+/* rtl:begin:remove */
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+.nav-link .text-uppercase {
+  color: #000000;
+}
+button.navbar-toggler.collapsed {
+  border: 0;
+}
+
+/* rtl:end:remove */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 40em) {
+  .desktop-logo {
+    display: none;
+  }
+}
+@media (min-width: 40.5em) {
+  .mobile-logo {
+    display: none;
+  }
+}
