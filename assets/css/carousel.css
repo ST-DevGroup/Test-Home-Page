@@ -99,6 +99,9 @@ button.navbar-toggler.collapsed {
   .desktop-logo {
     display: none;
   }
+  .marketing .p-2 {
+    font-size: 14px;
+  }
 }
 @media (min-width: 40.5em) {
   .mobile-logo {
