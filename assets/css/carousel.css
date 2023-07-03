@@ -101,6 +101,7 @@ button.navbar-toggler.collapsed {
   }
   .marketing .p-2 {
     font-size: 14px;
+    flex: 1;
   }
 }
 @media (min-width: 40.5em) {
